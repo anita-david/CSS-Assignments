@@ -1,0 +1,147 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+			text-align: left;
+        }
+
+        .back-button-container{
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            z-index: 1000;
+        }
+        
+        .back-button{
+            border-radius: 0.3rem;
+            padding:5px 10px ;
+            border: none;
+            background-color: #ffd700;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        body {
+            font-family: "Poppins", serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        .header {
+            text-align: left;
+			border-bottom: 8px solid #999999;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+			padding-left: 20px;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+			padding: 20px 20px;
+			width: 700px;
+        }
+
+        .header p span {
+            color: green;
+            font-weight: bold;
+        }
+
+        .main {
+            background-color: #666666;
+            padding: 1.5rem 0rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .highlight {
+            background-color: #ffd700;
+            color: black;
+            padding: 0.5rem 1rem;
+            display: inline-block;
+            font-weight: bold;
+            margin-bottom: 1rem;
+			border-bottom: 8px solid #cc9900;
+			position: absolute;
+			top: 10px;
+			left:0px;
+        }
+
+        .main p {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+		.main-text{
+			background-color: white;
+			position: relative;
+		}
+		 .main-text, .p {
+			padding: 70px 20px 20px 20px;
+		}
+
+        @media (min-width: 767px) {
+            .header h1 {
+                font-size: 3rem;
+				padding-left: 264px;
+            }
+
+			.header p{
+				padding-left: 264px;
+			}
+
+			.main{
+				padding: 40px 258px;
+
+			}
+
+            .main p {
+                font-size: 1.1rem;
+            }
+
+			.highlight{
+				left: -10px;
+			}
+        }
+
+        @media (max-width: 767px) {
+            .header {
+                text-align: center;
+            }
+
+			.header p {
+				width: 401px;
+			}
+
+            .main {
+                text-align: center;
+            }
+
+            .main .highlight {
+                display: block;
+                margin: 0 auto 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+			.header p {
+				width: 342px;
+			}
+
+            .main p {
+                font-size: 0.9rem;
+            }
+
+        }
+   

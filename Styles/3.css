@@ -1,0 +1,85 @@
+
+.back-button-container{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    z-index: 1000;
+}
+
+.back-button{
+    border-radius: 0.3rem;
+    padding:5px 10px ;
+    border: none;
+    background-color: #fdf3c6;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    background-color: #bfb7d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 5px;
+    left: -5px;
+    background-color: #fdf3c6;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.series {
+    font-size: 14px;
+    font-weight: normal;
+    color: #555;
+}
+
+.card-description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+}

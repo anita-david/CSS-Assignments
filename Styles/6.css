@@ -1,0 +1,505 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Roboto";
+	color: rgba(20, 20, 20, 1);
+}
+
+.header-container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 4rem;
+	background-image: url("../Assets/Pictures/aurora.png");
+	background-size: cover;
+  background-position: center;
+
+}
+
+span{
+	color:rgb(0,101,254) ;
+}
+
+.middle-section{
+	display: flex;
+	gap: 1.5rem;
+	cursor: pointer;
+}
+
+.right-section{
+	cursor: pointer;
+}
+
+.features{
+	display: flex;
+	position: relative;
+}
+
+.down-arrow{
+	position: absolute;
+	right: -15px;
+	top: -12px;
+	font-size: 1.5rem;
+	opacity: 0.7;
+}
+
+.login-button, .home-button, .learn-more-button{
+	color: rgb(0,101,254);
+	border: none;
+	background-color:#fcf9e9;
+	margin-left: 1rem;
+	cursor: pointer;
+}
+
+.try-button, .signup-button{
+	background-color: rgb(0,101,254);
+	color: white;
+	padding:0.5rem 1.5rem;
+	border-radius: 2rem;
+	border: none;
+	margin-left: 1rem;
+	cursor: pointer;
+}
+
+.section1{
+	display: flex;
+	flex-direction: column;
+	background-image: url("../Assets/Pictures/aurora.png");
+	background-size: cover;
+  background-position: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.section1 p, h1{
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.section1 h1{
+	font-size: 3rem;
+}
+
+.header2{
+	position: relative;
+}
+
+.vector-image{
+	position: absolute;
+	right: 45%;
+}
+
+.section1-text{
+	text-align: center;
+	margin: auto;
+	width: 50%;
+	font-size: 0.8rem;
+	padding-top: 1rem;
+}
+
+.button-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 2rem;
+}
+
+.section2{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-size: cover;
+  background-position: center;
+	padding: 3rem 6rem;
+	background-color: rgb(249,251,253);
+}
+
+.section1-image2{
+	width: 90vw;
+}
+
+.achievement-stats{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 6rem;
+	margin: auto;
+	margin-left: 10rem;
+	width: 60%;
+}
+
+.achievement-stats p, .section3 p, .section4-text{
+	font-size: 0.8rem;
+	padding-top: 0.5rem;
+}
+
+.achievement-stats strong, .section3 strong{
+	font-size: 1rem;
+}
+
+.section2 .catch-phrase, .section3 .feature-header, .section8 .faq-header{
+	font-size: 1.5rem;
+}
+
+.section3{
+	display: flex;
+	padding: 3rem 6rem;
+}
+
+.feature-header-container{
+	width: 22%;
+	position: relative;
+}
+
+.feature-header, .section4-header{
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+
+.features-container{
+	margin-left: 8rem;
+	width: 20%;
+}
+
+.section3 div{
+	margin-bottom: 1rem;
+}
+
+.feature-header-container:before {
+	content: '';
+	position: absolute;
+	top: 10px; 
+	left: -10px;
+	width: 4px; 
+	height: 25px; 
+	background: linear-gradient(180deg, rgba(17, 34, 50, 1), rgba(77, 107, 136, 0));
+}
+
+.section4{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.section4-header{
+	position: relative;
+}
+
+.section4-text{
+	text-align: center;
+	font-size: 0.6rem;
+}
+
+.section4-header:before {
+	content: '';
+	position: absolute;
+	top: 3px; 
+	left: -10px;
+	width: 4px; 
+	height: 25px; 
+	background: linear-gradient(180deg, rgba(17, 34, 50, 1), rgba(77, 107, 136, 0));
+}
+
+.section5{
+	display: flex;
+	padding: 3rem 5rem;
+	position: relative;
+}
+
+.basic, .teams{
+	padding: 3rem 4rem;
+	border: 0.4px solid rgba(0, 90, 226, 1);
+	border-radius: 12px;
+	height: 420px;
+	position: absolute;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+}
+.basic{
+	left: 105px;
+	top: 100px;
+}
+.teams{
+	right: 100px;
+	top: 100px;
+	border-left-color: rgba(30, 52, 72, 1);
+}
+.professional{
+	background-color: rgba(30, 52, 72, 1);
+	padding: 6rem 4rem;
+	color: white;
+	height: 520px;
+	position: absolute;
+	right: 455px;
+	border-radius:12px ;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.checkmarked-text{
+	display: flex;
+	gap: 1rem;
+}
+
+.category{
+	font-size: 1.3rem;
+	margin-bottom: 2rem;
+}
+
+.price{
+	font-size: 2rem;
+	margin-bottom: 0.8rem;
+}
+
+.description{
+	font-size: 1rem;
+}
+
+.section5 div{
+	margin-top: 1.5rem;
+}
+
+.section6{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	margin-top: 550px;
+}
+
+.get-button{
+	border: 1px solid rgba(0, 101, 254, 1);
+	color: rgba(0, 101, 254, 1);
+	background-color: white;
+	border-radius: 15px;
+	padding: 0.5rem 1rem;
+}
+
+.select-button{
+	background-color: rgba(0, 101, 254, 1);
+	color: white;
+	border: none;
+	border-radius: 15px;
+	padding: 0.5rem 1rem;
+
+}
+
+.section7{
+	background-image: url("../Assets/Pictures/Big-Gradient-Rectangle.png");
+	padding: 8rem 19rem;
+	margin-top: 6rem;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-container{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 12px;
+	padding: 2rem;
+	width: fit-content;
+}
+
+.form-div{
+	display: flex;
+	gap: 1rem;
+}
+
+.form-div .input{
+	border: 1px solid rgba(0, 101, 254, 1) ;
+	color: rgba(0, 101, 254, 1);
+	padding: 1rem;
+	border-radius: 5px;
+
+}
+
+.form-container .paste-input{
+	padding: 1rem 14rem 1rem 1rem;
+}
+
+.form-container div, input{
+	margin-bottom: 1rem;
+}
+
+.form-container input{
+	border: 1px solid rgba(0, 101, 254, 1) ;
+	color: rgba(0, 101, 254, 1);
+	padding: 1rem;
+	border-radius: 5px;
+}
+
+.form-container input::placeholder{
+	color: rgba(0, 101, 254, 1);
+}
+
+.form-container button{
+	background-color: rgba(0, 101, 254, 1);
+	color: white;
+	border: none;
+	border-radius: 20px;
+	padding: 0.5rem 10rem;
+}
+
+.form-container p{
+	color:rgba(0, 101, 254, 1) ;
+	font-size: 0.8rem
+;
+}
+
+.section8{
+	display: flex;
+	flex-direction: column;
+	background-image: url("../Assets/Pictures/FAQ\ Background.png");
+	justify-content: space-between;
+	position: relative;
+	padding: 1rem 20rem 10rem 20rem;
+}
+
+.faq-header:before {
+	content: '';
+	position: absolute;
+	top: 20px; 
+	left: 595px;
+	width: 4px; 
+	height: 25px; 
+	background: linear-gradient(180deg, rgba(17, 34, 50, 1), rgba(77, 107, 136, 0));
+}
+
+.faq-header{
+	text-align: center;
+}
+
+.faq-div{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.faq-div-description{
+	font-size: 0.8rem;
+}
+
+.faq-div .read-more{
+	font-size: 1.5rem;
+}
+
+.section8 div{
+	margin-top: 1.5rem;
+}
+
+.section9{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../Assets/Pictures/Gradient-Rectangle.png");
+	padding: 5rem 5rem 2rem 5rem;
+	gap: 2rem;
+}
+
+.section9 p{
+	color: white;
+	font-size:2rem ;
+}
+
+.section9 button{
+	background-color: rgba(0, 101, 254, 1);
+	color: white;
+	padding: 1rem 2rem;
+	border-radius: 25px;
+	border: none;
+}
+
+.section10{
+	display: flex;
+	background-image: url("../Assets/Pictures/Footer\ Background-edited.png");
+	gap: 5rem;
+	padding: 2rem 5rem;
+}
+
+.icons-container{
+	display: flex;
+	flex-direction: column;
+	margin-top: 4rem;
+}
+
+.section10-header{
+	font-weight: 700;
+	margin: 4rem 0rem 1rem 0rem;
+}
+
+.logos{
+	display: flex;
+	gap: 1.5rem;
+	padding-top: 1rem;
+}
+
+.footnote{
+	display: flex;
+	padding: 5rem;
+	justify-content: flex-end;
+	background-image: url("../Assets/Pictures/Footer\ Background-edited.png");
+
+}
+
+@media (max-width: 987px){
+	.header-container{
+		flex-direction: column;
+		gap: 1rem;
+	}
+	.vector-image{
+		opacity: 0;
+}
+.section1-image2{
+	width: 90vw;
+}
+.section1-image1{
+	width: 50vw;
+}
+.section2{
+	flex-direction: column;
+	gap: 2rem;
+}
+.achievement-stats{
+	gap: 2rem;
+	width: 100%;
+}
+
+
+.section5{
+	flex-direction: column;
+}
+.basic, .teams, .professional{
+	position: static;
+}
+
+.section6{
+	margin-top: 1rem;
+}
+
+.faq-header:before{
+opacity: 0;
+}
+
+.section8{
+	padding: 1rem 3rem;
+}
+
+.section9 p{
+	font-size: 1.5rem;
+}
+
+.section10{
+	padding: 2rem 1rem;
+	gap: 1rem;
+}
+
+}

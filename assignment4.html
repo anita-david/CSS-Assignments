@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Assignment 4</title>
+	<link rel="stylesheet" href="Styles/4.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="back-button-container">
+		<a href="index.html">
+		 <button class="back-button"> Home</button>
+		</a>
+	</header>
+	<main>
+		<div class="signup-container">
+			<div class="logo-box">
+				<img class="image"
+					src="./Assets/Pictures/logo.png">
+				<p class="header-text">For Individuals</p>
+				<p>Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+			</div>
+			<div class="signup-box">
+				<form action="#" method="POST" class="signup-form" id="signupForm">
+					<div class="form-container">
+						<div class="left-form-section">
+							<div class="form-group">
+								<label for="first-name">First Name</label>
+								<input type="text" placeholder="First Name" id="first-name" name="first-name">
+							</div>
+							<div class="form-group">
+								<label for="gender">Gender</label>
+								<select id="gender" name="gender">
+								  <option value="" disabled selected>Select gender</option>
+								  <option value="male">male</option>
+								  <option value="female">female</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="weight">Weight (KG)</label>
+								<input type="text" placeholder="Enter weight" id="weight" name="weight">
+							</div>
+						</div>
+						<div class="right-form-section">
+							<div class="form-group">
+								<label for="last-name">Last Name</label>
+								<input type="text" placeholder="Last name" id="last-name" name="last-name">
+							</div>
+							<div class="form-group">
+								<label for="dob">Date of Birth</label>
+								<input type="date" id="dob" name="dob">
+					  
+							</div>
+
+							<div class="form-group">
+								<label for="height">Height (CM)</label>
+								<input type="text" placeholder="Enter height here" id="height" name="height">
+							</div>
+							
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="activity-level">Activity Level</label>
+						<select id="activity-level" name="activity-level">
+						  <option value="" disabled selected>Select here</option>
+						  <option value=""></option>
+						  <option value=""></option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="password">Password</label>
+						<input type="password" placeholder="Enter password" id="password" name="password">
+					</div>
+					<p class="terms">By clicking register, you agree to our <span class="text">Terms of Use</span>
+					and our <span class="text">Privacy Policy</span></p>
+					<button type="submit" class="submit-btn">Signup &#8594;</button>
+				</form>
+			</div>
+
+		</div>
+	</main>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.back-button-container{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 1000;
+}
+
+.back-button{
+	border-radius: 0.3rem;
+	padding:5px 10px ;
+	border: none;
+	background-color: #ff0099;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+
+body {
+	background-color: #222;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	font-family: "Poppins", serif;
+  }
+  
+  .container {
+	position: relative;
+	width: 350px;
+  }
+  
+  .pink-box {
+	background-color: #ff0099; 
+	color: black;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	padding: 10px 40px  ;
+	position: absolute;
+	top: -10px; 
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 5px;
+	width: max-content;
+  }
+  
+  .white-box {
+	background-color: white;
+	padding:50px 40px 20px 40px;
+	border-radius: 10px;
+	position: relative;
+  }
+  
